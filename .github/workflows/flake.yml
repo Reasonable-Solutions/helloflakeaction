@@ -5,5 +5,4 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
     - name: Use My Custom Action
-      uses: Reasonable-Solutions/friendly-parakeet
-      
+      uses: Reasonable-Solutions/friendly-parakeet@037e6b1561834679fc722dfe5d0acdfefa7daaec
