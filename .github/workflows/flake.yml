@@ -7,4 +7,4 @@ jobs:
     - name: build flakes
       uses: Reasonable-Solutions/friendly-parakeet@master
       with:
-        packages: ripgrep ponysay default
+        packages: ripgrep ponysay
