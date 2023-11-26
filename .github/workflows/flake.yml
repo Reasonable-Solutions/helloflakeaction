@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: build flakes
-      uses: Reasonable-Solutions/friendly-parakeet@308ac7845a5476ca892457322f03df5bcd7f259c
+      uses: Reasonable-Solutions/friendly-parakeet@e83b4de66fea860d7e2cc0250ffb6eed06ce2779
