@@ -57,7 +57,9 @@
       # Provide some binary packages for selected system types.
       packages = forAllSystems (system: {
         inherit (nixpkgsFor.${system}) hello;
-        anotherPackage = (nixpkgsFor.${system}) ripgrep;
+        inherit (nixpkgsFor.${system}) ripgrep;
+        inherit (nixpkgsFor.${system}) ponysay;
+
       });
 
       # The default package for 'nix build'. This makes sense if the
